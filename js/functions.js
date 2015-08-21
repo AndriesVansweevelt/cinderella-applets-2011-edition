@@ -148,46 +148,45 @@ function titlename( name )
    if(name=="H3_no") return "<b>Simuleringer:</b> Simulering av svermer";     
    if(name=="H4_no") return "<b>Simuleringer:</b> Genenes lekeplass";     
 
+   if(name=="A1_nl") return "<b>Reflecties:</b> Spiegel van spiegelingen";     
+   if(name=="A2_nl") return "<b>Reflecties:</b> Werkelijke spiegels";    
+   if(name=="A3_nl") return "<b>Reflecties:</b> Kaleidoscoop";     
+   if(name=="A4_nl") return "<b>Reflecties:</b> Behangpapieren";     
 
-   if(name=="A1_tr") return "<b>Yansımalar:</b> Yansımaların yansımaları";     
-   if(name=="A2_tr") return "<b>Yansımalar:</b> Fiziksel yansımalar";    
-   if(name=="A3_tr") return "<b>Yansımalar:</b> Kaleydoskop (Çiçek Dürbünü)";     
-   if(name=="A4_tr") return "<b>Yansımalar:</b> Duvar kağıtları";     
-
-   if(name=="B1_tr") return "<b>Benzerlikler:</b> Döndürme simetrisi";     
-   if(name=="B2_tr") return "<b>Benzerlikler:</b> Ucuca eklenen dörtgenler";     
-   if(name=="B3_tr") return "<b>Benzerlikler:</b> Yinelemeli benzerlikler";     
-   if(name=="B4_tr") return "<b>Benzerlikler:</b> İki benzerliği yineleme";     
+   if(name=="B1_nl") return "<b>Gelijkvormigheden:</b> Rotationele symmetrie";     
+   if(name=="B2_nl") return "<b>Gelijkvormigheden:</b> spiraal van vierhoeken";     
+   if(name=="B3_nl") return "<b>Gelijkvormigheden:</b> Iteratie van gelijkvormigheden";     
+   if(name=="B4_nl") return "<b>Gelijkvormigheden:</b> Iteratie van twee gelijkvormigheden";     
  
-   if(name=="C1_tr") return "<b>Cisimler:</b> Platonik cisimler";     
-   if(name=="C2_tr") return "<b>Cisimler:</b> Arşimet cisimleri";     
-   if(name=="C3_tr") return "<b>Cisimler:</b> İçiçe geçmiş platonik cisimler";     
-   if(name=="C4_tr") return "<b>Cisimler:</b> Biçim değiştiren cisimler";     
+   if(name=="C1_nl") return "<b>Lichamen:</b> Platonische lichamen";     
+   if(name=="C2_nl") return "<b>Lichamen:</b> Archimedische lichamen";     
+   if(name=="C3_nl") return "<b>Lichamen:</b> Genestelde platonische lichamen";     
+   if(name=="C4_nl") return "<b>Lichamen:</b> Vervormen van lichamen";     
  
-   if(name=="D1_tr") return "<b>Doldurmalar:</b> Uzay dolduran çok yüzlü cisimler";     
-   if(name=="D2_tr") return "<b>Doldurmalar:</b> Sierpinski dörtyüzlüsü";     
-   if(name=="D3_tr") return "<b>Doldurmalar:</b> Kürelerle doldurma";     
-   if(name=="D4_tr") return "<b>Doldurmalar:</b> Kristaller ve örgüler";     
+   if(name=="D1_nl") return "<b>Stapels:</b> Ruimtevullende polyhedra";     
+   if(name=="D2_nl") return "<b>Stapels:</b> Sierpinski tetra&euml;der";     
+   if(name=="D3_nl") return "<b>Stapels:</b> Balverpakkingen";     
+   if(name=="D4_nl") return "<b>Stapels:</b> Kristallen en roosters";     
  
-   if(name=="E1_tr") return "<b>Kaos:</b> Ayna kaosu";     
-   if(name=="E2_tr") return "<b>Kaos:</b> Conway’in yaşam oyunu";     
-   if(name=="E3_tr") return "<b>Kaos:</b> Çift sarkaç";     
-   if(name=="E4_tr") return "<b>Kaos:</b> Kuvvet alanındaki gezegen";     
+   if(name=="E1_nl") return "<b>Chaos:</b> Spiegelchaos";     
+   if(name=="E2_nl") return "<b>Chaos:</b> Conway's spel van het leven";     
+   if(name=="E3_nl") return "<b>Chaos:</b> Dubbele slinger";     
+   if(name=="E4_nl") return "<b>Chaos:</b> Planeet in een krachtveld";     
  
-   if(name=="F1_tr") return "<b>Bitkiler:</b> Kopyaların kopyaları";     
-   if(name=="F2_tr") return "<b>Bitkiler:</b> Eğrelti otu ve diğer bitkiler";     
-   if(name=="F3_tr") return "<b>Bitkiler:</b> Ayçiçeği";     
-   if(name=="F4_tr") return "<b>Bitkiler:</b> Ağaç yapıları";     
+   if(name=="F1_nl") return "<b>Planten:</b> Kopies van kopies";     
+   if(name=="F2_nl") return "<b>Planten:</b> Varens en andere planten";     
+   if(name=="F3_nl") return "<b>Planten:</b> Zonnebloem";     
+   if(name=="F4_nl") return "<b>Planten:</b> Boomstructuren";     
  
-   if(name=="G1_tr") return "<b>Oyunlar:</b> Sudoku";     
-   if(name=="G2_tr") return "<b>Oyunlar:</b> 14/15 Bulmacası";     
-   if(name=="G3_tr") return "<b>Oyunlar:</b> Solitaire";     
-   if(name=="G4_tr") return "<b>Oyunlar:</b> Arabanı serbest bırak";     
+   if(name=="G1_nl") return "<b>Spel:</b> Sudoku";     
+   if(name=="G2_nl") return "<b>Spel:</b> 14/15 Puzzel";     
+   if(name=="G3_nl") return "<b>Spel:</b> Driehoek";     
+   if(name=="G4_nl") return "<b>Spel:</b> Rijd uw wagen uit";     
  
-   if(name=="H1_tr") return "<b>Simülasyonlar:</b> Yürüyen bir robot";     
-   if(name=="H2_tr") return "<b>Simülasyonlar:</b> Dengeci fok";     
-   if(name=="H3_tr") return "<b>Simülasyonlar:</b> Sürü simülasyonu";     
-   if(name=="H4_tr") return "<b>Simülasyonlar:</b> Kalıtım oyunu";     
+   if(name=="H1_nl") return "<b>Simulatie:</b> Wandelende robot";     
+   if(name=="H2_nl") return "<b>Simulatie:</b> Balanceren";     
+   if(name=="H3_nl") return "<b>Simulatie:</b> Zwermen";     
+   if(name=="H4_nl") return "<b>Simulatie:</b> Erfelijkheidsspel";     
 
    return name;
 }
